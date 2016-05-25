@@ -1,0 +1,82 @@
+body {
+	background-color: #F4F1EA;
+}
+
+.logo {	
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.line {
+
+	height:2px;
+	background:#373737;
+	border-bottom:1px solid #373737;
+}
+
+.icecream {	
+    height: auto;
+    max-width: 100%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px; 
+}
+
+a { 
+	color: inherit;
+	text-decoration: none; 
+}
+
+figcaption { 
+    display: block;
+    text-align: center;
+	font-size: 30px;
+	font-family: 'Shadows Into Light', sans-serif;
+	font-color: #373737;
+}
+
+
+h1 {
+	text-align: left;
+	font-size: 30px;
+	font-family: 'Shadows Into Light', sans-serif;
+	font-color: #373737;
+	margin-left: 50px;
+	margin-right: 50px;
+
+}
+
+p {
+	font-size: 18px;
+	text-align: justify;
+	font-family: 'Quicksand', sans-serif;
+	font-color: #373737;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+table {
+	font-size: 18px;
+	text-align: left;
+	font-family: 'Quicksand', sans-serif;
+	font-color: #373737;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.flavors{
+	width:75%;
+}
+
+table.flavors tr:hover { 
+    background-color: #FF7A5A;
+}
+table.flavors tr:nth-child(odd) {
+    background: #8ED2C9;
+}
+table.flavors tr:nth-child(odd):hover {
+    background: #FF7A5A;
+}
